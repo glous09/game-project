@@ -1,0 +1,294 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-yellow {
+    background: #ffcc00;
+}
+
+.header {
+    min-height: 50rem;
+    height: 100vh;
+    position: relative;
+    background: #ffcc00;
+}
+
+.logo{
+    border: 2px solid black; 
+}
+
+.play-image {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 50%;
+    padding: 0;
+    z-index: 3;
+}
+
+.play-image img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 50rem;
+    height: 100vh;
+}
+
+.meta-info {
+    position: absolute;
+    bottom: 0;
+}
+
+.align-self-end {
+    -ms-flex-item-align: end!important;
+    align-self: flex-end!important;
+}
+
+ .label {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 30px;
+    padding-bottom: 1rem;
+}
+
+.artist {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-family: "Matter Bold";
+}
+
+.song {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    padding-bottom: 4rem;
+}
+
+.bg-purple {
+    background: #660099;
+    width: calc(100% + 1.9rem);
+    min-height: 50rem;
+    height: 100vh;
+    position: relative;
+}
+
+.stations {
+   padding: 4rem 0;
+}
+
+.big-title {
+    font-size: 10.36vw;
+    line-height: 12.5vw;
+    margin-top: -1.8vw;
+    text-transform: uppercase;
+    letter-spacing: -4.25px;
+}
+
+.black-circle {
+    display: block;
+    width: 11.5vw;
+    height: 11.5vw;
+    border-radius: 20vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    border-bottom-right-radius: 20vw;
+    border-bottom-left-radius: 20vw;
+    background: #000000;
+    margin-left: auto;
+}
+
+.fm-list {
+    font-size: 2.4rem;
+    margin-top: 19rem;  
+}
+
+.title-h3 {
+    line-height: 9rem;
+    padding-top: 2rem;
+    font-size: 6rem;
+}
+
+.no {
+    font-size: 6rem;
+    margin-right: 2rem;
+}
+
+.fm-list .table-fm .row-fm:first-child {
+    border-top: 1px solid #000000;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+.fm-list .table-fm .row-fm {
+height: 8rem;
+border-bottom: 1px solid #000000;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+
+}
+
+.schedule {
+    font-size: 2.4rem;
+}
+
+.schedule h3 {
+    line-height: 6rem;
+    padding-top: 2rem;
+}
+
+.f_11 {
+    font-size: 11rem;
+    line-height: 11rem;
+}
+
+
+
+.fm-list .table-fm .row-fm .right {
+    margin-left: auto;
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+.schedule .table-schedule .row-schedule:first-child {
+    border-top: 1px solid #000000;
+}
+
+.schedule .table-schedule .row-schedule {
+    height: 8rem;
+    border-bottom: 1px solid #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+a {
+    color: #000000;
+}
+a, p {
+    margin: 0;
+    text-decoration: none;
+}
+
+.schedule .table-schedule .row-schedule .arr {
+    font-size: 3rem;
+}
+.schedule .table-schedule .row-schedule .right {
+    margin-left: auto;
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+.schedule .table-schedule .row-schedule.big .name {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.right {
+    margin-left: 0;
+    padding-top: 1rem;
+    line-height: inherit;
+    text-align: left;
+}
+
+.letter {
+    width: 100%;
+}
+
+.pt-48 {
+    padding-top: 2rem;
+}
+
+.wrapper-weeks {
+    padding: 4rem 0 10rem 0;
+}
+
+.wrapper-weeks .week h3 {
+    font-size: 6rem;
+    line-height: 6rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid #cccccc;
+}
+.expand {
+    position: relative;
+}
+
+.wrapper-weeks .week .table-shows {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+}
+
+.wrapper-weeks .week .table-shows .row-show {
+    height: 8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.wrapper-weeks .week .table-shows .row-show .hour {
+    min-width: 10rem;
+}
+
+.wrapper-weeks .week .table-shows .row-show .playing-bullet {
+    max-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    background: #33ff00;
+    border-radius: 10rem;
+    margin-left: auto;
+}
+
+.fm-band {
+    background: #ffcc00;
+    overflow: hidden;
+}
+
+.fm-band .band {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 12rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 7rem;
+    white-space: nowrap;
+}
+
+.fm-band .band p {
+    font-size: 20rem;
+    line-height: 24rem;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+hr {
+    background: #000000;
+    border: none;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+}
+.illu-piano {
+    margin-top: 8rem;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+
